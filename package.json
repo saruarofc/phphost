@@ -4,7 +4,8 @@
   "description": "A simple Telegram bot hosted on Koyeb",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npm install"
   },
   "dependencies": {
     "express": "^4.17.1",
